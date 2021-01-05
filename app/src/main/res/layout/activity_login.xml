@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg"
+    android:gravity="center"
+    >
+    <EditText
+        android:id="@+id/et_zhanghao"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="请输入账号"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="请输入密码"
+        android:paddingLeft="5dp" />
+    <TextView
+        android:id="@+id/tv_main_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_refresh"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="登录"
+        android:textColor="#ffffff" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_main_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_refresh"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="注册"
+        android:textColor="#ffffff" />
+</LinearLayout>
